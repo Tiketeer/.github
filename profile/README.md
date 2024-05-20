@@ -26,9 +26,9 @@ Tiketeer는 사용자와 판매자 모두를 위한 티켓 예매 플랫폼으�
 
 모든 서버의 빌드 순서입니다.
 1. Tiketeer-Waiting repo의 docker image 빌드.
-  1. ex) `docker build -t tiketeer-waiting .`
+    1. ex) `docker build -t tiketeer-waiting .`
 2. Tiketeer-be repo의 `docker-compose.prod.yml` 실행
-  1. ex) `docker compose -f docker-compose.prod.yml up -d`
+    1. ex) `docker compose -f docker-compose.prod.yml up -d`
 
 주의 사항
 - Tiketeer-be repo에 resource 경로에 `application-prod.yml` 파일이 있어야 합니다.
