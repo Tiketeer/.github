@@ -31,5 +31,7 @@ Tiketeer는 사용자와 판매자 모두를 위한 티켓 예매 플랫폼으�
     1. ex) `docker compose -f docker-compose.prod.yml up -d`
 
 주의 사항
-- Tiketeer-be repo에 resource 경로에 `application-prod.yml` 파일이 있어야 합니다.
+- Tiketeer-be repo resource 경로에 `application-prod.yml` 파일이 있어야 합니다.
   - `application-prod.yml` 파일은 `readme.md`를 참고하여 만들 수 있습니다.
+- Tiketeer-Waiting repo resource 경로에 `application.yml` 파일이 있어야 합니다.
+  - `application.yml` 파일은 `readme.md`를 참고하여 만들 수 있습니다.
