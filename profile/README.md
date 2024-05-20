@@ -21,3 +21,15 @@ Tiketeer는 사용자와 판매자 모두를 위한 티켓 예매 플랫폼으�
 질문이나 제안사항이 있으시다면, dla0510@naver.com 으로 연락주세요.
 
 👩‍💻 프로젝트에 관련된 자료는 [Tiketeer팀 노션 페이지](https://www.notion.so/tiketeer/4de780acc5a246dc9732e5541a00c47e?v=c259bdfa5ff24409825e70cbfba07f89)에서 확인할 수 있습니다
+
+## Build ⚙️
+
+모든 서버의 빌드 순서입니다.
+1. Tiketeer-Waiting repo의 docker image 빌드.
+  1. ex) `docker build -t tiketeer-waiting .`
+2. Tiketeer-be repo의 `docker-compose.prod.yml` 실행
+  1. ex) `docker compose -f docker-compose.prod.yml up -d`
+
+주의 사항
+- Tiketeer-be repo에 resource 경로에 `application-prod.yml` 파일이 있어야 합니다.
+  - `application-prod.yml` 파일은 `readme.md`를 참고하여 만들 수 있습니다.
