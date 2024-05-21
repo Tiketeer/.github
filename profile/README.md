@@ -16,12 +16,6 @@ Tiketeer는 사용자와 판매자 모두를 위한 티켓 예매 플랫폼으�
 
 팀 규칙은 [엔지니어링 가이드라인](https://www.notion.so/tiketeer/3d5542da41b145debf507f4aff7a45eb)에서 확인하실 수 있습니다.
 
-## Contanct 🌈
-
-질문이나 제안사항이 있으시다면, dla0510@naver.com 으로 연락주세요.
-
-👩‍💻 프로젝트에 관련된 자료는 [Tiketeer팀 노션 페이지](https://www.notion.so/tiketeer/4de780acc5a246dc9732e5541a00c47e?v=c259bdfa5ff24409825e70cbfba07f89)에서 확인할 수 있습니다
-
 ## Build ⚙️
 
 모든 서버의 빌드 순서입니다.
@@ -35,3 +29,9 @@ Tiketeer는 사용자와 판매자 모두를 위한 티켓 예매 플랫폼으�
   - `application-prod.yml` 파일은 `readme.md`를 참고하여 만들 수 있습니다.
 - Tiketeer-Waiting repo resource 경로에 `application.yml` 파일이 있어야 합니다.
   - `application.yml` 파일은 `readme.md`를 참고하여 만들 수 있습니다.
+
+## Contanct 🌈
+
+질문이나 제안사항이 있으시다면, dla0510@naver.com 으로 연락주세요.
+
+👩‍💻 프로젝트에 관련된 자료는 [Tiketeer팀 노션 페이지](https://www.notion.so/tiketeer/4de780acc5a246dc9732e5541a00c47e?v=c259bdfa5ff24409825e70cbfba07f89)에서 확인할 수 있습니다
